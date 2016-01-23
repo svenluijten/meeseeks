@@ -5,7 +5,10 @@
         <meta charset="UTF-8">
     </head>
 
-    <body>
-        <img src="meeseeks.png" alt="LOOK AT MEEEEEE">
-    </body>
+    <body style="background:no-repeat;background-size: cover;"></body>
+
+    <script>
+        var imgs = [1, 2, 3, 4, 5];
+        document.body.style.backgroundImage = "url('images/" + imgs[Math.floor(Math.random() * imgs.length)] + ".jpg')";
+    </script>
 </html>
